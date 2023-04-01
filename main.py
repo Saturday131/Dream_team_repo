@@ -21,3 +21,8 @@ print(f"Standard deviation of 1D array:\n{std}")
 print(f"Reshaped 2D matrix:\n{new_matrix}")
 print(f"Element-wise multiplied matrix:\n{mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix:\n{sum_mult_matrix}")
+
+
+mult_matrices = sum_mult_matrix * sum_mult_matrix
+
+print(f"Multiplied matrices:\n{mult_matrices}")
