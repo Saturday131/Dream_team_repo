@@ -23,6 +23,10 @@ print(f"Element-wise multiplied matrix:\n{mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix:\n{sum_mult_matrix}")
 
 
+
+print("Whatever")
+print("some more text")
+
 mult_matrices = sum_mult_matrix * sum_mult_matrix
 
 print(f"Multiplied matrices:\n{mult_matrices}")
